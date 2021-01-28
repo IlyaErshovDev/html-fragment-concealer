@@ -39,7 +39,7 @@ export default class extends React.Component<any> {
 		if (/18\+/.test(element.innerHTML)) {
 			console.warn('item was found 1');
 		}
-
+		
 		if (/м.*о.*с.*к.*в.*а/i.test(element.innerHTML)) {
 			console.warn('item was found 2');
 		}
