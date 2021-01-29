@@ -3,9 +3,11 @@
 Для запуска приложения удалите файл **src/components/base/SmokeText.test.tsx**
 На данный момент удалось замаскировать компоненты SmokeText и Image. В консоль выводится лишь 'item was found 2', объект срабатывания которого находится вне маскируемого компонента SmokeText.
 Для маскировки компонента Image были использованы styled-components. В компоненте SmokeText используется замена символов кириллицы на похожие латинские, а также добавляются невидимые пробелы в случайные позиции строки.
-К сожалению, мне не удалось выполнить пункт 3. Из-за отсутствия опыта работы с TS и малыми знаниями о конфигурировании проектов столкнулся с рядом ошибок, решение которых приводило к новым неполадкам.
+К сожалению, мне не удалось выполнить пункт 3. Из-за отсутствия опыта работы с TS и малыми знаниями о конфигурировании проектов, я столкнулся с рядом ошибок, решение которых приводило к новым неполадкам.
 Выдаваемые ошибки:
-     SyntaxError: /home/yosh/Документы/work/TestTasks/trainee-test-1/trainee-test-1/src/components/base/SmokeText.test.tsx: Support for the experimental syntax 'jsx' isn't currently enabled (7:43):
+
+     SyntaxError: /home/yosh/Документы/work/TestTasks/trainee-test-1/trainee-test-1/src/components/base/SmokeText.test.tsx: Support for the experimental syntax  'jsx' isn't currently enabled (7:43):
+     
      Add @babel/preset-react (https://git.io/JfeDR) to the 'presets' section of your Babel config to enable transformation.
     If you want to leave it as-is, add @babel/plugin-syntax-jsx (https://git.io/vb4yA) to the 'plugins' section to enable parsing.
 
