@@ -14,6 +14,7 @@
 
     error TS2741: Property 'children' is missing in type '{}' but required in type '{ children: any; }'.
     
+    Спасибо за интересное тестовое задание. Буду рад обратной связи.
     
 
 #### Запуск приложения:
